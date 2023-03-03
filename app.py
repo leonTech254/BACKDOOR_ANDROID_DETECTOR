@@ -1,4 +1,10 @@
 from flask import Flask
+import pickle
+
+
+class Models:
+    network_traffics="./TrainedModel/"
+    permission="./TrainedModel/"
 
 app=Flask(__name__)
 
