@@ -39,7 +39,7 @@ pred = gnb.predict(X_test)
 
 
 # savint the model
-with open('gnb_model.pkl', 'wb') as file:
+with open('./TrainedModel/gnb_model_permissions.pkl', 'wb') as file:
     pickle.dump(gnb, file)
 
 # accuracy
