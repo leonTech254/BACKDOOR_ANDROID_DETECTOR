@@ -4,7 +4,7 @@ import pickle
 
 class Models:
     network_traffics="./TrainedModel/"
-    permission="./TrainedModel/"
+    permission="./TrainedModel/gnb_model_permissions.pkl"
 
 app=Flask(__name__)
 
