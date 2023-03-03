@@ -37,6 +37,11 @@ gnb.fit(X_train, y_train)
 # pred
 pred = gnb.predict(X_test)
 
+
+# savint the model
+with open('gnb_model.pkl', 'wb') as file:
+    pickle.dump(gnb, file)
+
 # accuracy
 accuracy = accuracy_score(pred, y_test)
 print("naive_bayes")
